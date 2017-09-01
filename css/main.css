@@ -1,0 +1,61 @@
+body {
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	background-color: #ffffff;
+}
+
+h1,h2 {
+	font-weight: 400;
+}
+
+h1 {
+	margin-top: 3rem;
+	font-size: 2rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+}
+
+img.logo {
+	max-width: 12rem;
+}
+
+img.screenshot {
+	border-radius: 1rem;
+	max-height: 40rem;
+	max-width: 100%;
+}
+img.screenshot-large {
+
+}
+
+div.feature {
+	margin: 3rem 0.2rem 1rem 0.2rem;
+}
+
+div.feature img {
+	display: inline-block;
+	max-height: 30rem;
+	max-width: 400px;
+	border-radius: 0.5rem;
+	border: 1px solid #dcdcdc;
+}
+
+div.feature-item {
+	display: inline-block;
+	text-align: left;
+	vertical-align: top;
+	width: 400px;
+}
+
+.button {
+	display: inline-block;
+	background-color: #aaa;
+	color: #fff;
+	text-decoration: none;
+	padding: 0.5rem;
+	border: 1px solid #666;
+	border-radius: 0.3rem;
+}
+ 
