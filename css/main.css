@@ -1,24 +1,38 @@
 body {
 	text-align: center;
 	font-family: 'Open Sans', sans-serif;
-	background-color: #ffffff;
+	background-color: #fff;
+	color: rgb(50,50,50);
 }
 
-h1,h2 {
+h1,h2,h3 {
+	color: rgb(4, 129, 210);
 	font-weight: 400;
 }
 
 h1 {
 	margin-top: 3rem;
-	font-size: 2rem;
+	font-size: 2.5rem;
 }
 
 h2 {
+	font-size: 1.8rem;
+}
+
+h3 {
 	font-size: 1.5rem;
 }
 
+hr {
+	margin: 2rem 0rem 1rem 0rem;
+	border-left: none;
+	border-right: none;
+	border-top: none;
+	border-bottom: 1px solid rgb(200,200,200);	
+}
+
 img.logo {
-	max-width: 12rem;
+	max-width: 20rem;
 }
 
 img.screenshot {
@@ -39,7 +53,8 @@ div.feature img {
 	max-height: 30rem;
 	max-width: 400px;
 	border-radius: 0.5rem;
-	border: 1px solid #dcdcdc;
+	border: 1px solid rgb(200,200,200);
+	box-shadow: 0rem 0.2rem 0.5rem rgba(10,10,10,0.1);
 }
 
 div.feature-item {
@@ -51,11 +66,14 @@ div.feature-item {
 
 .button {
 	display: inline-block;
-	background-color: #aaa;
+	background-color: rgb(4, 129, 210);
 	color: #fff;
 	text-decoration: none;
-	padding: 0.5rem;
-	border: 1px solid #666;
-	border-radius: 0.3rem;
+	padding: 0.5rem 1rem 0.5rem 1rem;
+	border: 1px solid rgb(3, 90, 146);
+	border-radius: 0.4rem;
 }
- 
+
+.button-large {
+	font-size: 1.5rem;
+}
