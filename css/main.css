@@ -25,6 +25,15 @@ h3 {
 	font-size: 1.5rem;
 }
 
+a {
+	text-decoration: none;
+	color: rgb(4, 129, 210);
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
 hr {
 	margin: 2rem 0rem 1rem 0rem;
 	border-left: none;
@@ -79,4 +88,13 @@ div.feature-item {
 
 .button-large {
 	font-size: 1.5rem;
+}
+
+a.button {
+	text-decoration: none;
+}
+
+footer {
+	font-size: 0.8rem;
+	color: rgb(180,180,180);
 }
