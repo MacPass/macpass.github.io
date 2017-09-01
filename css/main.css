@@ -16,10 +16,12 @@ h1 {
 }
 
 h2 {
+	margin-top: 1rem;
 	font-size: 1.8rem;
 }
 
 h3 {
+	margin-top: 0.5rem;
 	font-size: 1.5rem;
 }
 
@@ -49,6 +51,7 @@ div.feature {
 }
 
 div.feature img {
+	margin: 0.5rem 0rem 0rem 1rem;
 	display: inline-block;
 	max-height: 30rem;
 	max-width: 400px;
@@ -61,7 +64,7 @@ div.feature-item {
 	display: inline-block;
 	text-align: left;
 	vertical-align: top;
-	width: 400px;
+	width: 300px;
 }
 
 .button {
