@@ -1,7 +1,7 @@
 body {
 	text-align: center;
 	font-family: 'Open Sans', sans-serif;
-	background-color: #fff;
+	background-color: rgb(240,240,240);
 	color: rgb(50,50,50);
 }
 
@@ -42,8 +42,12 @@ hr {
 	border-bottom: 1px solid rgb(200,200,200);	
 }
 
+.clear {
+	clear: both;
+}
+
 img.logo {
-	max-width: 20rem;
+	max-width: 19rem;
 }
 
 img.screenshot {
@@ -55,6 +59,43 @@ img.screenshot-large {
 
 }
 
+div.navigation {
+	position: fixed;
+	top: 0rem;
+	right: 0rem;
+	margin: 1rem;
+}
+
+div.navigation .menu-button {
+	float: right;
+	background-color: rgb(4, 129, 210);
+	border-radius: 50%;
+	width: 3.5rem;
+	height: 3.5rem;
+	box-shadow: 0rem 0.5rem 0.5rem rgba(10,10,10,0.1);
+}
+
+div.navigation .menu {
+	display: none;
+	background-color: rgb(4, 129, 210);
+	margin-top: 0.5rem;
+	padding: 0.5rem;
+	text-align: left;
+}
+
+div.navigation:hover .menu,
+div.navigation:active .menu,
+div.navigation:focus .menu {
+	display: block;
+}
+
+div.navigation a {
+	display: block;
+	font-size: 1.5rem;
+	margin: 0.5rem 0rem 1rem 0rem;
+	color: rgb(255,255,255);
+}
+
 div.feature {
 	margin: 3rem 0.2rem 1rem 0.2rem;
 }
@@ -62,7 +103,6 @@ div.feature {
 div.feature img {
 	margin: 0.5rem 0rem 0rem 1rem;
 	display: inline-block;
-	max-height: 30rem;
 	max-width: 400px;
 	border-radius: 0.5rem;
 	border: 1px solid rgb(200,200,200);
