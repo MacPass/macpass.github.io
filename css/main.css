@@ -68,19 +68,24 @@ div.navigation {
 
 div.navigation .menu-button {
 	float: right;
+	font-size: 2.3rem;
+	color: #fff;
 	background-color: rgb(4, 129, 210);
 	border-radius: 50%;
 	width: 3.5rem;
 	height: 3.5rem;
-	box-shadow: 0rem 0.5rem 0.5rem rgba(10,10,10,0.1);
+	box-shadow: 0rem 0.3rem 0.5rem rgba(10,10,10,0.2);
 }
 
 div.navigation .menu {
 	display: none;
 	background-color: rgb(4, 129, 210);
+	background-color: #fff;
 	margin-top: 0.5rem;
 	padding: 0.5rem;
 	text-align: left;
+	box-shadow: 0rem 0.3rem 0.5rem rgba(10,10,10,0.2);
+	border-radius: 1rem;
 }
 
 div.navigation:hover .menu,
@@ -93,7 +98,7 @@ div.navigation a {
 	display: block;
 	font-size: 1.5rem;
 	margin: 0.5rem 0rem 1rem 0rem;
-	color: rgb(255,255,255);
+	/*color: rgb(255,255,255);*/
 }
 
 div.feature {
