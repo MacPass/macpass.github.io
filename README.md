@@ -1,2 +1,10 @@
-# macpass.github.io
-MacPass Website
+# MacPass Website
+
+This repository hosts the website for http://macpassapp.org as well as https://macpass.github.ui.
+
+The goal is to use a simple static website without clutter.
+
+## Contributing
+
+Contributions via pull requests are highly appreciated.
+
