@@ -177,6 +177,15 @@ div.feature-item {
 	width: 350px;
 }
 
+div.plugin-item {
+	margin: 3em auto;
+}
+
+span.plugin-version {
+	display: block;
+	font-size: 0.6em;
+}
+
 .button {
 	display: inline-block;
 	background-color: rgb(4, 129, 210);
