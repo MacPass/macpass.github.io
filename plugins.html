@@ -1,0 +1,39 @@
+---
+layout: root
+---
+
+<table>
+  <tr>
+    <th>
+      Name
+    </th>
+    <th>
+      Version
+    </th>
+    <th>
+      Download
+    </th>
+    <th>
+      Source
+    </th>
+  </tr>
+  {% for plugin in site.data.plugins %}  
+    <tr>
+      <td>
+        {{ plugin['name'] }}
+      </td>
+      <td>
+        {{ plugin['version'] }}
+      </td>
+      <td>
+        <a href="{{ plugin['download'] }}">Download</a>
+      </td>
+      <td>
+        <a href="{{ plugin['source'] }}">Source</a>
+      </td>
+    </tr>
+  {% endfor %}
+  
+</table>
+
+<a href='data/plugins.json'>JSON</a>
