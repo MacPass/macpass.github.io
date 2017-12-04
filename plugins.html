@@ -2,38 +2,18 @@
 layout: root
 ---
 
-<table>
-  <tr>
-    <th>
-      Name
-    </th>
-    <th>
-      Version
-    </th>
-    <th>
-      Download
-    </th>
-    <th>
-      Source
-    </th>
-  </tr>
-  {% for plugin in site.data.plugins %}  
-    <tr>
-      <td>
-        {{ plugin['name'] }}
-      </td>
-      <td>
-        {{ plugin['version'] }}
-      </td>
-      <td>
-        <a href="{{ plugin['download'] }}">Download</a>
-      </td>
-      <td>
-        <a href="{{ plugin['source'] }}">Source</a>
-      </td>
-    </tr>
-  {% endfor %}
-  
-</table>
+<h1>Available Plugins</h1>
+{% for plugin in site.data.plugins %}  
+<div class="plugin-item">
+  <h2>{{ plugin['name'] }} <span class="plugin-version">{{ plugin['version'] }}</span></h2>
+  <p>
+    {{ plugin['description'] }}
+  </p>
+  <div class="plugin-download">
+    <a href="{{ plugin['download'] }}">Download</a>
+    <a href="{{ plugin['source'] }}">Source</a>      
+  </div>
+</div>
+{% endfor %}
 
 <a href='data/plugins.json'>JSON</a>
