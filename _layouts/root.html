@@ -26,6 +26,9 @@
 <footer>
     <a href="https://twitter.com/MacPassApp">Twitter</a>
     <a href="https://github.com/mstarke/MacPass">GitHub</a>
+    {% for link in page.footer_links %}
+    <a href="{{ link['url'] }}">{{ link['name'] }}</a>
+    {% endfor %}
     <p>&copy; 2017 HicknHack Software GmbH</p>
 </footer>
 </body>
