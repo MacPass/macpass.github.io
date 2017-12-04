@@ -1,0 +1,9 @@
+[
+  {
+    "name": "MacPassHTTP",
+    "description": "KeePassHTTP support for MacPass",
+    "download": "https://github.com/MacPass/MacPassHTTP/releases/tag/0.3",
+    "source": "https://github.com/MacPass/MacPassHTTP",
+    "version": "0.3.0"
+  }
+]
