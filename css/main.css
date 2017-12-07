@@ -85,20 +85,6 @@ div.screenshots {
 	box-shadow: 0rem 0.5rem 2rem rgba(10,10,10,0.2);
 }
 
-@media (max-width: 840px) {
-	div.screenshots {
-		width: 600px;
-		max-height: 450px;
-	}	
-}
-
-@media (max-width: 640px) {
-	div.screenshots {
-		width: 400px;
-		max-height: 300px;
-	}	
-}
-
 div.screenshots img:nth-of-type(1) { animation-delay: 24s; }
 div.screenshots img:nth-of-type(2) { animation-delay: 20s; }
 div.screenshots img:nth-of-type(3) { animation-delay: 16s; }
@@ -200,4 +186,23 @@ a.button {
 footer {
 	font-size: 0.8rem;
 	color: rgb(180,180,180);
+}
+
+@media (max-width: 840px) {
+	div.screenshots {
+		width: 90vw;
+		max-height: calc(0.75 * 90vw);
+	}
+
+	div.feature img {
+		max-width: 90vw;
+		width: 90vw;
+		margin: 0;
+	}
+	
+	div.feature-item {
+		width: 90vw;
+		max-width: 90vw;
+	}
+
 }
