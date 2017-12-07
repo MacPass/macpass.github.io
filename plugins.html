@@ -8,7 +8,7 @@ footer_links: [ { "url" : "/data/plugins.json", "name": "JSON" } ]
 <div class="plugins">
 {% for plugin in site.data.plugins %}  
 <div class="plugin-item">
-  <h2>{{ plugin['name'] }} <span class="plugin-version">current version: {{ plugin['version'] }}</span></h2>
+  <h2>{{ plugin['name'] }} <span class="plugin-version">current version: {{ plugin['currentVersion'] }}</span></h2>
   <p>
     {{ plugin['description'] }}
   </p>

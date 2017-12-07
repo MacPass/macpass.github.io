@@ -4,6 +4,7 @@
     "description": "KeePassHTTP support for MacPass",
     "download": "https://github.com/MacPass/MacPassHTTP/releases/tag/0.3",
     "source": "https://github.com/MacPass/MacPassHTTP",
-    "version": "0.3.0"
+    "currentVersion": "0.3.0",
+    "bundleIdentifier": "com.hicknhacksoftware.MacPassHTTP"
   }
 ]
