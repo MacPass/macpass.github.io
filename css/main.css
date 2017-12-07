@@ -142,7 +142,7 @@ div.navigation a {
 	margin: 0.5rem 1rem;
 }
 div.navigation a.current-page {
-	border-bottom: 2px solid rgb(4, 129, 210);;
+	border-bottom: 2px solid rgb(4, 129, 210);
 }
 
 div.feature {
@@ -171,7 +171,7 @@ div.plugin-item {
 
 span.plugin-version {
 	display: block;
-	font-size: 0.6rem;
+	font-size: 0.9rem;
 }
 
 .button-description {
