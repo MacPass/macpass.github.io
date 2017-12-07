@@ -1,36 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>MacPass - a KeePass compatible port for macOS</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link rel="stylesheet" href="css/main.css" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans" >
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
 </head>
-<body>
-  
-  <div class="navigation">
-      <div class="menu-button">#</div>
-      <div class="clear"></div>
-      <div class="menu">
-          <a href="https://github.com/mstarke/MacPass/releases">Download</a>
-          <a href="/plugins">Plugins</a>
-          <a href="https://github.com/mstarke/MacPass/wiki">Documentation</a>
-          <a href="https://github.com/mstarke/MacPass">GitHub</a>
-          <a href="https://twitter.com/MacPassApp">Twitter</a>
-      </div>
-  </div>
 
-  {{content}}
-  
-<hr/>
-<footer>
-    <a href="https://twitter.com/MacPassApp">Twitter</a>
-    <a href="https://github.com/mstarke/MacPass">GitHub</a>
-    {% for link in page.footer_links %}
-    <a href="{{ link['url'] }}">{{ link['name'] }}</a>
-    {% endfor %}
-    <p>&copy; 2017 HicknHack Software GmbH</p>
-</footer>
+<body>
+    <img src="img/app_icon.png" class="logo" />
+    <div class="navigation">
+        {% if page.id == 'home' %}
+        <a class="current-page" href="/">Overview</a>
+        {% else %}
+        <a href="/">Overview</a>
+        {% endif %}
+        {% if page.id == 'plugins' %}
+        <a class="current-page" href="/plugins">Plugins</a>
+        {% else %}
+        <a href="/plugins">Plugins</a>
+        {% endif %}
+        <a href="https://github.com/mstarke/MacPass/wiki">Documentation</a>
+    </div>
+
+    <h1>{{ page.title }}</h1>
+    <div class="content">
+        {{content}}
+    </div>
+    <hr/>
+    <footer>
+        <a href="https://twitter.com/MacPassApp">Twitter</a>
+        <a href="https://github.com/mstarke/MacPass">GitHub</a>
+        {% for link in page.footer_links %}
+        <a href="{{ link['url'] }}">{{ link['name'] }}</a>
+        {% endfor %}
+        <p>&copy; 2017 HicknHack Software GmbH</p>
+    </footer>
 </body>
+
 </html>

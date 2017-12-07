@@ -31,7 +31,7 @@ a {
 }
 
 a:hover {
-	text-decoration: underline;
+	text-decoration: none;
 }
 
 hr {
@@ -46,8 +46,12 @@ hr {
 	clear: both;
 }
 
+p.header-claim {
+	font-size: 1.3rem;
+}
+
 img.logo {
-	max-width: 19rem;
+	max-width: 10rem;
 }
 /*
 f - fade time
@@ -115,27 +119,10 @@ img.screenshot {
 }
 
 div.navigation {
-	position: fixed;
-	top: 0rem;
-	right: 0rem;
-	margin: 1rem;
-	z-index: 1;
-}
-
-div.navigation .menu-button {
-	float: right;
-	font-size: 2.3rem;
-	color: #fff;
-	background-color: rgb(4, 129, 210);
-	border-radius: 50%;
-	width: 3.5rem;
-	height: 3.5rem;
-	box-shadow: 0rem 0.3rem 0.5rem rgba(10,10,10,0.2);
+	padding: 1rem;
 }
 
 div.navigation .menu {
-	display: none;
-	background-color: rgb(4, 129, 210);
 	background-color: #fff;
 	margin-top: 0.5rem;
 	padding: 0.5rem;
@@ -151,10 +138,11 @@ div.navigation:focus .menu {
 }
 
 div.navigation a {
-	display: block;
-	font-size: 1.5rem;
-	margin: 0.5rem 0rem 1rem 0rem;
-	/*color: rgb(255,255,255);*/
+	font-size: 1.2rem;
+	margin: 0.5rem 1rem;
+}
+div.navigation a.current-page {
+	border-bottom: 2px solid rgb(4, 129, 210);;
 }
 
 div.feature {
@@ -178,25 +166,30 @@ div.feature-item {
 }
 
 div.plugin-item {
-	margin: 3em auto;
+	margin: 3rem auto;
 }
 
 span.plugin-version {
 	display: block;
-	font-size: 0.6em;
+	font-size: 0.6rem;
+}
+
+.button-description {
+	padding: 0.5rem;
+	font-size: 0.8rem;
 }
 
 .button {
 	display: inline-block;
-	background-color: rgb(4, 129, 210);
-	color: #fff;
 	text-decoration: none;
-	padding: 0.5rem 1rem 0.5rem 1rem;
-	border: 1px solid rgb(3, 90, 146);
 	border-radius: 0.4rem;
+	padding: 0.3rem 1rem;
+	border: 2px solid rgb(4, 129, 210);
 }
 
 .button-large {
+	padding: 0.8rem 1.5rem 0.8rem 1.5rem;
+	border-width: 3px;
 	font-size: 1.5rem;
 }
 
