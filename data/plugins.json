@@ -5,6 +5,22 @@
     "download": "https://github.com/MacPass/MacPassHTTP/releases/tag/0.3",
     "source": "https://github.com/MacPass/MacPassHTTP",
     "currentVersion": "0.3.0",
-    "bundleIdentifier": "com.hicknhacksoftware.MacPassHTTP"
+    "bundleIdentifier": "com.hicknhacksoftware.MacPassHTTP",
+    "compatibilty" : [
+      {
+        "version": "0.2.*",
+        "minimum_version" : "0.6.1",
+        "maxiumum_version" : "0.6.2"
+      },
+      { 
+        "version": "0.3",
+        "minimum_version" : "0.7",
+        "maxiumum_version" : "0.7.3"
+      },
+      { 
+        "version": "0.3.1",
+        "minimum_version" : "0.7.4"
+      }
+    ]
   }
 ]
