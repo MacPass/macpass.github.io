@@ -8,18 +8,18 @@
     "bundleIdentifier": "com.hicknhacksoftware.MacPassHTTP",
     "compatibilty" : [
       {
-        "version": "0.2.*",
-        "minimum_version" : "0.6.1",
-        "maxiumum_version" : "0.6.2"
+        "pluginVersion": "0.2.*",
+        "minimumHostVersion" : "0.6.1",
+        "maxiumumHostVersion" : "0.6.2"
       },
       { 
-        "version": "0.3",
-        "minimum_version" : "0.7",
-        "maxiumum_version" : "0.7.3"
+        "pluginVersion": "0.3",
+        "minimumHostVersion" : "0.7",
+        "maxiumumHostVersion" : "0.7.3"
       },
       { 
-        "version": "0.3.1",
-        "minimum_version" : "0.7.4"
+        "pluginVersion": "0.3.1",
+        "minimumHostVersion" : "0.7.4"
       }
     ]
   }
