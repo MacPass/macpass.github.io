@@ -10,10 +10,10 @@ footer_links: [ { "url" : "/data/plugins.json", "name": "JSON" } ]
 <div class="plugin-item">
   <h2>{{ plugin['name'] }}
     <span class="plugin-version">({{ plugin['currentVersion'] }})</span>
-    {% if plugin['compatibilty'].last['minimumHostVersion']) %}
+    {% if plugin['compatibilty'].last['minimumHostVersion'] %}
       <span class="plugin-host-version">requires MacPass: {{ plugin['compatibilty'].last['minimumHostVersion'] }}
-          {% if plugin['compatibilty'].last['maximumHostVersion']) %}
-            to {{ plugin['compatibilty'].last['maximumHostVersion']) }}.
+          {% if plugin['compatibilty'].last['maximumHostVersion'] %}
+            to {{ plugin['compatibilty'].last['maximumHostVersion'] }}.
           {% else %}
             or higher.
           {% endif %}
