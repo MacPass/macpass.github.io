@@ -50,6 +50,17 @@ p.header-claim {
 	font-size: 1.3rem;
 }
 
+p.header-text {
+	max-width: 70%;
+	text-align: left;
+	margin: auto;
+	margin-bottom: 0.4rem;
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	-ms-hyphens: auto;
+	hyphens: auto;
+}
+
 img.logo {
 	max-width: 10rem;
 }
@@ -161,6 +172,14 @@ span.plugin-version {
 span.plugin-host-version {
 	display: block;
 	font-size: 0.9rem;
+}
+
+div.sponsor-details a::before {
+	content: "|"
+}
+
+div.sponsor-details a:first-child::before {
+	content: ""
 }
 
 .button-description {
