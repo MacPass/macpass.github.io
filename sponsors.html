@@ -13,24 +13,30 @@ id: sponsors
     It's nice to see that there are kind and generous people in the world, a world that all too often seems like it's gone off the rails.</p>
 <hr>
 <div class="sponsors">
-{% for sponsor in site.data.sponsors %}  
+    {% for sponsor in site.data.sponsors %}  
     <div class="sponsor">
-    <h2>{{ sponsor['name'] }}
-        {% if sponsor['tier'] == 4 %}
-            🎉
-        {% endif %}
-    </h2>
-    <div class="sponsor-details">
-        {% if sponsor['url'] %}
-            <a href="{{ sponsor['url'] }}">{{ sponsor['url'] }}</a>
-        {% endif %}
-        {% if sponsor['mail'] %}
-            <a href="mailto:{{ sponsor['mail'] }}">{{ sponsor['mail'] }}</a>
-        {% endif %}
-        {% if sponsor['twitter'] %}
-            <a href="https://twitter.com/{{ sponsor['twitter'] }}">@{{ sponsor['twitter'] }}</a>
-        {% endif %}
-    </p>
+        <h2>{{ sponsor['name'] }}
+            {% if sponsor['tier'] == 4 %}
+                🎉
+            {% endif %}
+        </h2>
+        <div class="sponsor-details">
+            {% if sponsor['url'] %}
+                <a href="{{ sponsor['url'] }}">
+                {% if sponsor['url-title'] %}
+                    {{ sponsor['url-title'] }}
+                {% else %}
+                    {{ sponsor['url'] }}
+                {% endif %}
+                </a>
+            {% endif %}
+            {% if sponsor['mail'] %}
+                <a href="mailto:{{ sponsor['mail'] }}">{{ sponsor['mail'] }}</a>
+            {% endif %}
+            {% if sponsor['twitter'] %}
+                <a href="https://twitter.com/{{ sponsor['twitter'] }}">@{{ sponsor['twitter'] }}</a>
+            {% endif %}
+        </div>
     </div>
 {% endfor %}
 </div>

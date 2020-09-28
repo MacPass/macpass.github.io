@@ -1,10 +1,16 @@
 [
-    {
-      "name": "Dominik Roszkowski",
-      "url": "https://roszkowski.dev",
-      "mail": "dominik@roszkowski.dev",
-      "twitter": "OrestesGaolin",
-      "tier": 3 
-    }
-  ]
+  {
+    "name": "You?",
+    "url": "https://github.com/sponsors/mstarke",
+    "url-title": "Become a sponsor!",
+    "tier": 3 
+  },  
+  {
+    "name": "Dominik Roszkowski",
+    "url": "https://roszkowski.dev",
+    "mail": "dominik@roszkowski.dev",
+    "twitter": "OrestesGaolin",
+    "tier": 3 
+  }
+]
   
