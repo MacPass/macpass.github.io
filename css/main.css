@@ -46,6 +46,14 @@ hr {
 	clear: both;
 }
 
+p.big-sur-warning {
+	font-size: 0.9rem;
+	background-color: rgb(245, 170, 57);
+	padding: 0.3rem;
+	border: 1px solid rgb(151, 100, 24);
+	border-radius: 0.5rem;
+}
+
 p.header-claim {
 	font-size: 1.3rem;
 }
