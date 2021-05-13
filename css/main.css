@@ -205,12 +205,22 @@ div.sponsor-details a:first-child::before {
 	border-radius: 0.4rem;
 	padding: 0.3rem 1rem;
 	border: 2px solid rgb(4, 129, 210);
+
+	/* transition */
+	transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+	transition-duration: 300ms;
 }
 
 .button-large {
 	padding: 0.8rem 1.5rem 0.8rem 1.5rem;
 	border-width: 3px;
 	font-size: 1.5rem;
+}
+
+.button:hover {
+	background: rgb(4, 129, 210);
+	color: rgb(240,240,240);
 }
 
 a.button {
