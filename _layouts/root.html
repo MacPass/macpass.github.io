@@ -43,10 +43,11 @@
     <footer>
         <a href="https://twitter.com/MacPassApp">Twitter</a>
         <a href="https://github.com/MacPass/MacPass/">GitHub</a>
+        <a href="/legal-notice">Legal notice</a>
         {% for link in page.footer_links %}
         <a href="{{ link['url'] }}">{{ link['name'] }}</a>
         {% endfor %}
-        <p>&copy; 2017 - {{ site.time | date: '%Y' }} HicknHack Software GmbH</p>
+        <p id="copyright">&copy; 2017 - {{ site.time | date: '%Y' }} HicknHack Software GmbH</p>
     </footer>
 </body>
 
