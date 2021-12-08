@@ -2,9 +2,9 @@
   {
     "name": "AutotypeURL",
     "description": "Extract URLs from Browsers to enhance Global Autotype",
-    "download": "https://github.com/MacPass/AutotypeURL/releases/download/1.1/AutotypeURL-1.1.mpplugin.zip",
+    "download": "https://github.com/MacPass/AutotypeURL/releases/download/1.3/AutotypeURL-1.3.mpplugin.zip",
     "source": "https://github.com/MacPass/AutotypeURL",
-    "currentVersion": "1.1",
+    "currentVersion": "1.3",
     "bundleIdentifier": "com.hicknhacksoftware.AutotypeURL",
     "compatibilty" : [
       {
