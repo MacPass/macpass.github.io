@@ -36,6 +36,10 @@ id: sponsors
             {% if sponsor['twitter'] %}
                 <a href="https://twitter.com/{{ sponsor['twitter'] }}">@{{ sponsor['twitter'] }}</a>
             {% endif %}
+            {% if sponsor['github'] %}
+                <a href="https://github.com/{{ sponsor['github'] }}">{{ sponsor['github'] }}@GitHub</a>
+            {% endif %}
+
         </div>
     </div>
 {% endfor %}
