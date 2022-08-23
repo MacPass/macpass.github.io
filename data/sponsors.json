@@ -1,3 +1,10 @@
+// Sponsor can have the following tiers
+// 1*  $1/month
+// 2*  $2/month
+// 3  $5/month
+// 4 $10/month
+// 5 $100/ month
+// * - tier does not contribute to listing on webpage or inside MacPass
 [
   {
     "name": "You?",
