@@ -61,12 +61,23 @@ p.thank-you {
 	padding: 0.3rem;
 	border: 2px solid rgb(198, 32, 32);
 	border-radius: 0.5rem;
-
 }
-/*span.heart {
+p.domain-warning {
+	max-width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 0.9rem;
+	background-color: rgb(250, 230, 230);
+	padding: 0.3rem;
+	border: 2px solid rgb(198, 32, 32);
+	border-radius: 0.5rem;
+	display: grid;
+	grid-template-columns: 3rem auto 3rem;
+}
+p.domain-warning span.warning {
 	font-size: 2rem;
 }
-*/
+
 
 p.header-claim {
 	font-size: 1.3rem;
@@ -207,6 +218,24 @@ div.sponsor-details a::before {
 
 div.sponsor-details a:first-child::before {
 	content: ""
+}
+
+div.faq {
+	text-align: left;
+	margin: auto;
+	max-width: 70%
+}
+div.faq-item {
+
+}
+code {
+	display: inline-block;
+	font-family: monospace;
+	font-size: 1rem;
+	background-color: rgba(255, 255, 255, 0.2);
+	padding: 0.2rem;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	border-radius: 0.25rem;
 }
 
 .button-description {

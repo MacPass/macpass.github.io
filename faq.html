@@ -1,0 +1,23 @@
+---
+layout: root
+title: FAQ
+id: faq
+---
+<p class="header-text">MacPass can be extended with Plugins. Below is a list of all officially supported plugins. To install a plugin, either download the file with the supplied link or browse the plugin repository in MacPass.</p>
+<hr>
+<div class="faq">
+	<div class="faq-item">
+		<h2>What happened to <a href="https://macpassapp.org">macpassapp.org</a>?</h2>
+		<p><em>The short version</em> – I fucked up and lost the domain.</p>
+		<p><em>The long version</em> – The reminder emails from the hoster for the upcoming domain renewal did get lost in my SPAM folder. The domain did expire on June 13<sup>th</sup> 2026. I eventually found out about the deletion at the end of August. I immediately tried to undelete the domain but it failed due to being was past all grace periods. The domain was picked up by <a href="https://dropcatch.com">DropCatch</a>. There was more than one potential buyer which lead to the domain entering into public auction. It was sold for $610 which was quite a bit larger than the amount I was able to throw at the problem.</p>
+		<p><em>The solution</em> - move everthing to a new domain and hope for the best!</p>
+	</div>
+	<div class="faq-item">
+		<h2>Are Versions 0.8.1 and earlier at risk?</h2>
+		<p><em>No!</em> MacPass only uses the domain for the plugin definition file. The contents of this JSON file get's displayed in the plugin repository browser.</p>
+		<h3>Worst Case</h3>
+		<p>A malicous entity hosts an altered plugins.json file on macpassapp.org. You will then see the pluings in the repsitory browser. If you then click the download button, MacPass will load the file and store it at <code>~/Libary/ApplicationSupport/MacPass</code>. Since the plugin is not signed with the correct developer certificate, MacPass will refuse to load it <strong>unless</strong> you have enabled the option "Load unsecure Plugins".
+		</p>
+		
+	</div>
+</div>

@@ -13,7 +13,12 @@
 </head>
 
 <body>
-    <p class="thank-you"><span class="heart">❤️</span> Dear MacPass user, thank you for sticking with MacPass despite no official release for far too long. Finally version 0.8 is available which fixes the biggest issues on macOS 11 and above.</p>
+    <p class="domain-warning">
+        <span class="warning">☝️</span>
+        <span>Dear MacPass user, due to an oversight on my part, the domain <a href="https://macpassapp.org">macpassapp.org</a> was dropped and acquired by a third party. There are currently no vital paths to reaquire the domain. MacPass 0.8.2 was released to change the domain to <a href="https://macpass.app">macpass.app</a>. Please update your version to 0.8.2 as soon as possible!
+        </span>
+        <span class="warning">☝️</span>
+    </p>
     <img src="img/app_icon.png" class="logo" />
     <div class="navigation">
         {% if page.id == 'home' %}
@@ -41,9 +46,10 @@
     </div>
     <hr/>
     <footer>
-        <a href="https://twitter.com/MacPassApp">Twitter</a>
+        <!--<a href="https://twitter.com/MacPassApp">Twitter</a>-->
         <a href="https://github.com/MacPass/MacPass/">GitHub</a>
         <a href="/legal-notice">Legal notice</a>
+        <a href="/faq">FAQ</a>
         {% for link in page.footer_links %}
         <a href="{{ link['url'] }}">{{ link['name'] }}</a>
         {% endfor %}
