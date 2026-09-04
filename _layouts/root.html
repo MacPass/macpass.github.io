@@ -8,17 +8,15 @@
     <meta name="flattr:id" content="gp1lke">
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
-
     <link rel="shortcut icon" href="img/app_icon.png">
 </head>
 
 <body>
-    <p class="domain-warning">
-        <span class="warning">☝️</span>
-        <span>Dear MacPass user, due to an oversight on my part, the domain <a href="https://macpassapp.org">macpassapp.org</a> was dropped and acquired by a third party. There are currently no vital paths to reaquire the domain. MacPass 0.8.2 was released to change the domain to <a href="https://macpass.app">macpass.app</a>. Please update your version to 0.8.2 as soon as possible!
-        </span>
-        <span class="warning">☝️</span>
-    </p>
+    <div class="domain-warning">
+        <p class="warning">☝️</p>
+        <p>Dear MacPass user, due to an oversight on my part, the domain <a href="https://macpassapp.org">macpassapp.org</a> was dropped and acquired by a third party. There are currently no vital paths to reaquire the domain. MacPass 0.8.2 was released to change the domain to <a href="https://macpass.app">macpass.app</a>. Please update your version to 0.8.2 as soon as possible! See <a href="/faq">FAQ</a> for questions!</p>
+        <p class="warning">☝️</p>
+    </div>
     <img src="img/app_icon.png" class="logo" />
     <div class="navigation">
         {% if page.id == 'home' %}
@@ -44,7 +42,7 @@
     <div class="content">
         {{content}}
     </div>
-    <hr/>
+    <hr />
     <footer>
         <!--<a href="https://twitter.com/MacPassApp">Twitter</a>-->
         <a href="https://github.com/MacPass/MacPass/">GitHub</a>

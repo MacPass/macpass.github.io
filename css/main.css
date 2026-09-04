@@ -62,20 +62,22 @@ p.thank-you {
 	border: 2px solid rgb(198, 32, 32);
 	border-radius: 0.5rem;
 }
-p.domain-warning {
+div.domain-warning {
+	text-align: left;
 	max-width: 60%;
 	margin-left: auto;
 	margin-right: auto;
 	font-size: 0.9rem;
 	background-color: rgb(250, 230, 230);
-	padding: 0.3rem;
 	border: 2px solid rgb(198, 32, 32);
 	border-radius: 0.5rem;
 	display: grid;
 	grid-template-columns: 3rem auto 3rem;
 }
-p.domain-warning span.warning {
+div.domain-warning p.warning {
 	font-size: 2rem;
+	margin: 0;
+	align-self: center;
 }
 
 
